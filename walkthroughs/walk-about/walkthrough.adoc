@@ -2,7 +2,7 @@
 
 A walkthrough that shows the configuration of your cluster
 
-Installed Components:
+link:https://github-history.netlify.com/integr8ly/installation/commits/master/evals/inventories/group_vars/all/manifest.yaml[Installed Components]:
 
 [source,yaml]
 ----
@@ -54,7 +54,7 @@ Installed Components:
 }
 ----
 
-Web app right hand panel:
+link:https://github-history.netlify.com/integr8ly/tutorial-web-app/commits/master/src/product-info.js[Web app right hand panel]:
 [source,javascript]
 ----
 // This file needs to live inside src to be importable
@@ -86,7 +86,7 @@ export default {
 };
 ----
 
-Default walkthroughs
+link:https://github-history.netlify.com/integr8ly/tutorial-web-app-operator/commits/master/pkg/handlers/webhandler.go[Default walkthroughs]:
 [source,go]
 ----
 	WTLocationsDefault = "https://github.com/integr8ly/tutorial-web-app-walkthroughs#v1.3.0"
@@ -101,7 +101,7 @@ Default walkthroughs
 * yq and jq
 * asciidoctor
 
-. Fork this repo.
+. Fork link:https://github.com/finp/walk-about[walk-about repo].
 . Edit the INSTALL_TAG value to match your cluster in `walk-about.sh`.
 . Run `walk-about.sh`.
 This populates the walkthroughs/walk-about/walkthrough.adoc file.
