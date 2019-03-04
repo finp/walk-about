@@ -2,13 +2,29 @@
 
 A walkthrough that shows the configuration of your cluster
 
-Installed:
+Installed Components:
 
+[source,yaml]
 ----
 include::manifest.yaml[]
 ----
 
-Webapp:
+Web app right hand panel:
+[source,javascript]
 ----
 include::product-info.js[]
 ----
+
+== Creating your own walkabout
+
+.Prerequisites
+
+* yq and jq
+* asciidoctor
+
+. Fork this repo.
+. Edit the INSTALL_TAG value to match your cluster in `walk-about.sh`.
+. Run `walk-about.sh`.
+This populates the walkthroughs/walk-about/walkthrough.adoc file.
+. Commit and push changes to the repo.
+. Add the repo to your cluster as a walkthrough.

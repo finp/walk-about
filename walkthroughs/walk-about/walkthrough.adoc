@@ -2,10 +2,9 @@
 
 A walkthrough that shows the configuration of your cluster
 
-Random sentences shouldn't cause problems.
+Installed Components:
 
-Installed:
-
+[source,yaml]
 ----
 ---
 
@@ -94,7 +93,8 @@ monitoring_label_value: "middleware"
 middleware_monitoring_operator_version: '0.0.3'
 ----
 
-Webapp:
+Web app right hand panel:
+[source,javascript]
 ----
 // This file needs to live inside src to be importable
 export default {
@@ -125,12 +125,16 @@ export default {
 };
 ----
 
-I wonder if this will render?
+== Creating your own walkabout
 
-== Maybe it works better with tasks
+.Prerequisites
 
-this is a task
+* yq and jq
+* asciidoctor
 
-. do this
-
-. do that
+. Fork this repo.
+. Edit the INSTALL_TAG value to match your cluster in `walk-about.sh`.
+. Run `walk-about.sh`.
+This populates the walkthroughs/walk-about/walkthrough.adoc file.
+. Commit and push changes to the repo.
+. Add the repo to your cluster as a walkthrough.
