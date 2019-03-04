@@ -1,0 +1,14 @@
+= Walk About
+
+A walkthrough that shows the configuration of your cluster
+
+Installed:
+
+----
+include::manifest.yaml[]
+----
+
+Webapp:
+----
+include::product-info.js[]
+----
