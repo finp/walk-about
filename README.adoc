@@ -15,6 +15,13 @@ Web app right hand panel:
 include::product-info.js[]
 ----
 
+Default walkthroughs
+[source,go]
+----
+include::WTLocationsDefault.txt[]
+----
+
+
 == Creating your own walkabout
 
 .Prerequisites

@@ -86,6 +86,14 @@ export default {
 };
 ----
 
+Default walkthroughs
+[source,go]
+----
+	WTLocationsDefault = "https://github.com/integr8ly/tutorial-web-app-walkthroughs#v1.3.0"
+				updated, dc.Spec.Template.Spec.Containers[0] = updateOrCreateEnvVar(dc.Spec.Template.Spec.Containers[0], param, WTLocationsDefault)
+----
+
+
 == Creating your own walkabout
 
 .Prerequisites
