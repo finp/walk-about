@@ -2,6 +2,8 @@
 
 A walkthrough that shows the configuration of your cluster
 
+Random sentences shouldn't cause problems.
+
 Installed:
 
 ----
@@ -122,3 +124,13 @@ export default {
   }
 };
 ----
+
+I wonder if this will render?
+
+== Maybe it works better with tasks
+
+this is a task
+
+. do this
+
+. do that
